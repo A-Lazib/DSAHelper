@@ -1,0 +1,37 @@
+.code-editor {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  gap: 12px;
+}
+
+.editor-monaco-shell {
+  flex: 1;
+  width: 100%;
+  border: 1px solid #262a33;
+  border-radius: 10px;
+  background: #0b0d12;
+  overflow: hidden;
+  min-height: 280px;
+  transition: border-color 0.2s ease;
+}
+
+.editor-monaco-shell:focus-within {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.18);
+}
+
+.editor-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 0 16px 16px;
+  flex-wrap: wrap;
+}
+
+.editor-controls button {
+  padding: 0.75rem 1.1rem;
+  font-weight: 700;
+  border-radius: 10px;
+}

@@ -1,0 +1,150 @@
+.problem-description {
+  padding: 18px;
+  line-height: 1.6;
+  color: #e5e7eb;
+}
+
+.problem-description.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 240px;
+  color: #9ca3af;
+  font-size: 1rem;
+}
+
+.description-header {
+  margin-bottom: 18px;
+  border-bottom: 1px solid #262a33;
+  padding-bottom: 18px;
+}
+
+.description-header h1 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #f9fafb;
+}
+
+.meta-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.meta-info .difficulty {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.meta-info .difficulty.easy {
+  background: rgba(16, 185, 129, 0.16);
+  color: #34d399;
+}
+
+.meta-info .difficulty.medium {
+  background: rgba(245, 158, 11, 0.16);
+  color: #fbbf24;
+}
+
+.meta-info .difficulty.hard {
+  background: rgba(239, 68, 68, 0.16);
+  color: #f87171;
+}
+
+.meta-info .complexity {
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+.description-content {
+  color: #d1d5db;
+}
+
+.description-content p {
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+  color: #d1d5db;
+}
+
+.constraints,
+.examples,
+.patterns {
+  margin: 18px 0;
+}
+
+.constraints h3,
+.examples h3,
+.patterns h3 {
+  margin-bottom: 10px;
+  color: #f9fafb;
+  font-size: 1rem;
+}
+
+.constraints ul {
+  margin-left: 18px;
+}
+
+.constraints li {
+  margin-bottom: 8px;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+.example {
+  padding: 14px;
+  background: #0b0d12;
+  border: 1px solid #262a33;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.example-input,
+.example-output {
+  margin-bottom: 8px;
+}
+
+.example-input strong,
+.example-output strong {
+  display: inline-block;
+  width: 76px;
+  color: #93c5fd;
+}
+
+.example code {
+  background: #111318;
+  color: #f8fafc;
+  padding: 0.2rem 0.45rem;
+  border-radius: 6px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+}
+
+.example-explanation {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #262a33;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.pattern-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pattern-tag {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  background: #1e293b;
+  color: #c4b5fd;
+  border: 1px solid #312e81;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
